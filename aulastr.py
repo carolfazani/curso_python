@@ -1,0 +1,23 @@
+f = '    Curso em Vídeo Python    '
+print(f)
+print(f[9:13])
+print(f[9:21:2])
+print(f[:5])
+print(f[15:])
+print(f[9::3])
+print(len(f))
+print(f.count('o'))
+print(f.count('o', 0, 13))
+print(f.find('deo'))
+print(f.find('Android'))
+print('Curso' in f)
+print(f.replace('Python', "Android"))
+print(f.upper())
+print(f.lower())
+print(f.capitalize())
+print(f.title())
+print(f.strip())
+print(f.split())
+print('-'.join(f))
+
+
